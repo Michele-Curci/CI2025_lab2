@@ -4,7 +4,7 @@ Repository for lab 2 of the course Computational Intelligence
 
 ### Problem description
 
-Given a set of cities and the pairwise distances between them, the objective is to find the shortest possible rout that visits each city exactly once and returns to the starting point.
+Given a set of cities and the pairwise distances between them, the objective is to find the shortest possible route that visits each city exactly once and returns to the starting point.
 
 The goal is to find a permutation of the n cities that minimizes the total tour length.
 
@@ -43,7 +43,7 @@ This maintains pressure toward better solutions while preserving diversity.
 Offspring are generated using the Edge Recombination Crossover (ERX):
 
 - The operator preserves important edge information between parents
-- It creates offspirng that combine edges from both parents while avoiding invalid permutations
+- It creates offspring that combine edges from both parents while avoiding invalid permutations
 
 **Mutation**
 
